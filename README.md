@@ -42,7 +42,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-- [Styled Components](https://styled-components.com/) - For styles
+
 
 
 ### What I learned
