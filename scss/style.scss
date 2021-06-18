@@ -1,0 +1,137 @@
+//primary colour
+$sedan-bg-color:hsl(31, 77%, 52%);
+$suv-bg-color:hsl(184, 100%, 22%);
+$luxury-bg-color:hsl(179, 100%, 13%);
+
+//secondary colour
+$white-para-color:hsla(0, 0%, 100%, 0.75);
+$bg-heading-btn-color:hsl(0, 0%, 95%);
+html{
+    font-size: 15px; 
+}
+
+body{
+    
+    padding: 0;
+    margin: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+main{
+    max-width: 22rem;
+    margin: 5.75rem auto;
+}
+
+.section-all{
+    height: 29.4rem;
+    padding-left: 3.7rem;
+    color: $white-para-color;
+}
+
+.main-content{
+    h2{
+        font-family: 'Big Shoulders Display', cursive;
+        font-size: 2.4rem;
+        margin: 3rem 0 2rem;
+    }
+    p{
+        padding-right: 3.3rem;
+        margin: 2rem 0 ;
+        text-align: left;
+    }
+}
+
+.logo-holder{
+    padding-top: 3rem;
+}
+
+button{
+    font-family: 'Lexend Deca', sans-serif;    
+    font-size: 0.9rem;
+    background-color: $bg-heading-btn-color;
+    padding: 1.2rem 1.8rem;
+    border-radius: 2rem;
+    border-width: 0;   
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.main-sedan{
+    background-color: $sedan-bg-color;
+    border-radius: 1rem 1rem 0 0;
+    button{
+        color: $sedan-bg-color;
+    }
+    button:hover{
+        border: $bg-heading-btn-color solid 2px;
+        background-color: $sedan-bg-color;
+        color: $white-para-color;
+        cursor: pointer;
+    }
+    
+}
+
+.main-suv{
+    background-color: $suv-bg-color;
+    button{
+        color: $suv-bg-color;
+    }
+    button:hover{
+        border: $bg-heading-btn-color solid 0.13rem;
+        background-color: $suv-bg-color;
+        color: $white-para-color;
+        cursor: pointer;
+    }
+}
+
+.main-luxury{
+    background-color: $luxury-bg-color;
+    border-radius: 0 0 1rem 1rem;
+    button{
+        color: $luxury-bg-color;
+    }
+    button:hover{
+        border: $bg-heading-btn-color solid 0.13rem;
+        background-color: $luxury-bg-color;
+        color: $white-para-color;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width:990px){
+    main{
+        max-width: 61.5rem;
+        
+        margin: 11.4rem auto;
+        display: flex;
+    }
+    .main-content{
+        p{
+            margin: 2rem 0 0 0;
+        }
+    }
+    .main-sedan{
+        border-radius: 1rem 0 0 1rem;
+    }
+
+    .main-luxury{
+        border-radius: 0 1rem 1rem 0;
+    }
+
+    .section-all{
+        height: 33.4rem;        
+    }
+
+    button{
+        margin: 5.6rem 0;
+    }
+
+}
+
+
+

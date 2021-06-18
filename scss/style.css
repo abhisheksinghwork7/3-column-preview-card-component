@@ -1,0 +1,119 @@
+html {
+  font-size: 15px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+main {
+  max-width: 22rem;
+  margin: 5.75rem auto;
+}
+
+.section-all {
+  height: 29.4rem;
+  padding-left: 3.7rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.main-content h2 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.4rem;
+  margin: 3rem 0 2rem;
+}
+
+.main-content p {
+  padding-right: 3.3rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.logo-holder {
+  padding-top: 3rem;
+}
+
+button {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 0.9rem;
+  background-color: #f2f2f2;
+  padding: 1.2rem 1.8rem;
+  border-radius: 2rem;
+  border-width: 0;
+  font-weight: bold;
+}
+
+.main-sedan {
+  background-color: #e38826;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.main-sedan button {
+  color: #e38826;
+}
+
+.main-sedan button:hover {
+  border: #f2f2f2 solid 2px;
+  background-color: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.main-suv {
+  background-color: #006970;
+}
+
+.main-suv button {
+  color: #006970;
+}
+
+.main-suv button:hover {
+  border: #f2f2f2 solid 0.13rem;
+  background-color: #006970;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.main-luxury {
+  background-color: #004241;
+  border-radius: 0 0 1rem 1rem;
+}
+
+.main-luxury button {
+  color: #004241;
+}
+
+.main-luxury button:hover {
+  border: #f2f2f2 solid 0.13rem;
+  background-color: #004241;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+@media screen and (min-width: 990px) {
+  main {
+    max-width: 61.5rem;
+    margin: 11.4rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .main-content p {
+    margin: 2rem 0 0 0;
+  }
+  .main-sedan {
+    border-radius: 1rem 0 0 1rem;
+  }
+  .main-luxury {
+    border-radius: 0 1rem 1rem 0;
+  }
+  .section-all {
+    height: 33.4rem;
+  }
+  button {
+    margin: 5.6rem 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */
