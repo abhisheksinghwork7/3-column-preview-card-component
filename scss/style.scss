@@ -33,6 +33,7 @@ main{
         font-family: 'Big Shoulders Display', cursive;
         font-size: 2.4rem;
         margin: 3rem 0 2rem;
+        color: $bg-heading-btn-color;
     }
     p{
         padding-right: 3.3rem;
@@ -128,7 +129,7 @@ button{
     }
 
     button{
-        margin: 5.6rem 0;
+        margin: 5.6rem 0 0 0;
     }
 
 }
